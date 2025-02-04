@@ -35,3 +35,11 @@ A web app that allows users to explore GitHub profiles, repositories, and trendi
 ```sh
 git clone https://github.com/your-username/github-analytics.git
 cd github-analytics
+
+// Start backend
+cd backend
+node server.js
+
+// Start frontend 
+cd frontend
+npm run dev
