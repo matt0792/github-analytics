@@ -1,0 +1,61 @@
+.user-page {
+  height: 100vh;
+  margin-left: 120px;
+  color: whitesmoke;
+}
+
+.content {
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.section {
+  margin-top: 20px;
+}
+
+.section-row {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    align-items: center;
+}
+
+.header-misc {
+  font-weight: bold;
+  font-size: 30px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  cursor: pointer;
+  width: fit-content;
+}
+
+.rotated {
+  transform: rotate(180deg);
+}
+
+.spinner {
+  animation: spin 0.7s ease infinite;
+  width: fit-content;
+  font-size: 70px;
+  z-index: 1;
+  position: fixed;
+  left: 46%;
+  top: 50%;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.sub-header-text {
+    margin-top: 7px;
+    color: rgb(199, 199, 199);
+}

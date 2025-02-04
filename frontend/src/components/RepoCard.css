@@ -1,0 +1,23 @@
+.repo-home-card {
+    color: whitesmoke;
+    display: flex; 
+    flex-direction: column;
+    background-color: rgb(19, 19, 19);
+    padding: 20px;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: all 0.1s ease;
+    gap: 5px;
+}
+.repo-home-card:hover {
+    background-color: rgb(23, 23, 23);
+}
+
+.home-repo-title {
+    font-weight: bold;
+}
+
+.home-repo-desc {
+    color: rgb(185, 185, 185);
+    margin-top: 5px;
+}

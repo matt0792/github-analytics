@@ -1,0 +1,25 @@
+.profile-card {
+    display: flex; 
+    flex-direction: column;
+    width: fit-content;
+    gap: 7px;
+}
+
+.profile-image {
+    width: 130px;
+    border-radius: 50%;
+}
+
+.profile-name {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.profile-username {
+    color: gray;
+    font-size: 15px;
+}
+
+.profile-bio {
+    margin-top: 20px;
+}

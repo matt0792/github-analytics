@@ -1,0 +1,16 @@
+.home-page {
+    color: whitesmoke;
+}
+
+.home-repo-container {
+    display: flex;
+    flex-direction: column;
+    width: 97vw;
+    padding: 20px;
+    gap: 20px;
+}
+
+.home-title {
+    font-weight: bold;
+    font-size: 30px;
+}

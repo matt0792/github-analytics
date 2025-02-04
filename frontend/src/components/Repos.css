@@ -1,0 +1,56 @@
+.repos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.repo-card {
+  border: 1px gray solid;
+  padding: 20px;
+  width: 300px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  background-color: rgb(16, 16, 16);
+  word-wrap: break-word;
+  transition: all 0.1s ease;
+  cursor: pointer;
+}
+
+.repo-card:hover {
+    background-color: rgb(24, 24, 24);
+}
+
+.ext-link {
+  color: whitesmoke;
+}
+
+.link-group {
+  margin-top: auto;
+  width: fit-content;
+}
+
+.repo-name {
+  font-size: 23px;
+}
+
+.repo-desc {
+  color: rgb(191, 191, 191);
+}
+
+.info-container {
+  display: flex;
+  gap: 5px;
+}
+
+.fork {
+  color: black;
+  background: whitesmoke;
+  width: fit-content;
+  padding: 0px 3px;
+  font-weight: bold;
+  font-size: 15px;
+  border-radius: 3px;
+}

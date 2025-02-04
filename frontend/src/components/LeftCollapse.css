@@ -1,0 +1,66 @@
+.left-collapse {
+  height: 100vh;
+  position: fixed;
+  display: flex;
+  width: 500px;
+  background-color: rgba(16, 16, 16, 0.626);
+  border-right: 2px whitesmoke solid;
+  z-index: 10;
+  backdrop-filter: blur(10px);
+  top: 0px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  flex: 7;
+  overflow-y: auto;
+  margin-left: 20px;
+}
+
+.collapse-button {
+  display: flex;
+  color: whitesmoke;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.transition {
+  transition: transform 0.1s ease;
+}
+
+.rotated {
+  transform: rotate(180deg);
+}
+
+.collapsed {
+  transform: translateX(-435px);
+}
+
+.title {
+  color: whitesmoke;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.item-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.misc-text {
+    color: rgb(134, 134, 134);
+}
+
+.misc-section {
+    display: flex; 
+    flex-direction: column;
+    margin-top: 30px;
+    gap: 5px;
+}
