@@ -21,12 +21,11 @@ const Header = ({}) => {
 
   return (
     <div className="header">
-      <div className="brand">GitHub Analytics</div>
       <div className="link-container">
         <div className="link-group">
           <i class="bi bi-house-fill"></i>
           <a href="/" className="link">
-            Home
+            <div className="brand">GitHub Analytics</div>
           </a>
         </div>
       </div>

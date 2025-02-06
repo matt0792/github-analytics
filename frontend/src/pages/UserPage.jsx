@@ -17,6 +17,7 @@ const UserPage = () => {
 
   // get data from api
   useEffect(() => {
+    setIsLoading(true);
     const fetchGitHubUserData = async () => {
       try {
         const response = await fetch(
